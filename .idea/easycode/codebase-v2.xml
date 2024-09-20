@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/livestream-api/src/main/java/org/livestream/api/Controller/TestController.java;E:/idea/project/livestream/livestream-api/src/main/java/org/livestream/api/ApiWebApplication.java;E:/idea/project/livestream/livestream-api/pom.xml;E:/idea/project/livestream/livestream-user-interface/src/main/java/org/livestream/user/interfaces/IUserRpc.java;E:/idea/project/livestream/livestream-user-interface/pom.xml;E:/idea/project/livestream/livestream-user-provider/src/main/java/org/livestream/user/provider/rpc/UserRpcImpl.java;E:/idea/project/livestream/livestream-user-provider/src/main/java/org/livestream/user/provider/UserProviderApplication.java;E:/idea/project/livestream/livestream-user-provider/src/test/java/nacospwdtest.java;E:/idea/project/livestream/livestream-user-provider/pom.xml;E:/idea/project/livestream/pom.xml" />
+  </component>
+</project>

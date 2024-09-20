@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: livestream-api
+  cloud:
+    nacos:
+      username: live
+      password: live
+      discovery:
+        server-addr: localhost:8848
+        namespace: livestream-test
