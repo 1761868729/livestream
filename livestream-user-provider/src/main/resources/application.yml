@@ -22,6 +22,7 @@ spring:
           max-active: 50
           max-idle: 20
       database: 2
+
 dubbo:
   application:
     architecture: ${spring.application.name}
@@ -30,3 +31,14 @@ dubbo:
   protocol:
     name: dubbo
     port: 9091
+
+livestream:
+  rocketmq:
+    consumer:
+      group-name: ${spring.application.name}
+      name-server: 127.0.0.1:9876
+    producer:
+      name-server: 127.0.0.1:9876
+      group-name: ${spring.application.name}
+      retry-times: 3
+      send-msg-timeout: 3000

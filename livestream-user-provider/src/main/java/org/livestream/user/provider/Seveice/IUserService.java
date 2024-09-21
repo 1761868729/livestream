@@ -17,7 +17,7 @@ public interface IUserService {
      * @param userId
      * @return
      */
-    UserDto getUserById(Long userId);
+    UserDto getUserInfoById(Long userId);
 
     /**
      * 批量获取用户信息

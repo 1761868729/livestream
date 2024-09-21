@@ -1,3 +1,10 @@
 logging:
   level:
     com.alibaba.nacos: warn
+
+dubbo:
+  application:
+    name: livestream-api-application
+    qos-port: 33333
+  registry:
+    address: nacos://127.0.0.1:8848?namespace=livestream-test&username=live&password=live
